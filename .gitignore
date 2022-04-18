@@ -45,4 +45,4 @@ testem.log
 Thumbs.db
 
 #environment file
-!environment.ts
+environment.ts
