@@ -1,0 +1,33 @@
+form{
+  padding-top: 20px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.under{
+  text-decoration: underline;
+}
+.content{
+  padding: 5px;
+}
+img{
+  border-radius: 50%;
+  margin-left: 30%;
+  width: 300px;
+}
+.card{
+  padding: 10px;
+  margin-top: 70px;
+}
+.gitLink{
+  border-radius: 30px;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link{
+  text-decoration: none;
+  color: #000;
+}
+
+

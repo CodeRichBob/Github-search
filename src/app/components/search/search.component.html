@@ -1,0 +1,34 @@
+<div class="container-fluid">
+ <form #search='ngForm'>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="search github users" [(ngModel)]="username" name="username" (keyup.enter)="updateProfile();search.resetForm()">
+    </div>
+  </form>
+
+  <div class="row content">
+    <div class="col-md-6">
+      <h2 class="text-center under">{{user.name}}</h2>
+      <img src="{{user.avatar_url}}" alt="Profile picture">
+    </div>
+  <div class="col-md-6">
+    <div class="card">
+      <h3 class="card-title text-center under">Profile</h3>
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-secondary">{{user.followers}} followers</li>
+          <li class="list-group-item bg-secondary">following {{user.following}}</li>
+        </ul>
+      </div>
+      <button class="btn btn-success gitLink"><a class="link" href="{{user.html_url}}" target="_blank">View full profile on github</a></button>
+    </div>
+  </div>
+</div>
+<div class="card ">
+  <h3 class="text-center card-title under">Repositories</h3>
+  <div *ngFor="let repo of repos">
+    <p appChangecolor>{{repo.name | uppercase}} <br><a href="{{repo.html_url}}" target="_blank" class="btn btn-success ">View repo in github</a></p>
+    <p *ngIf="repo.description">{{repo.description}}</p>
+    <hr>
+  </div>
+</div>
+</div>
