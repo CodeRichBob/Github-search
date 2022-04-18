@@ -19,6 +19,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 There are no known bugs currently but I look forward to improving the overall user experience
 
+## Technologies Used
+
+This site was made entirely using:
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Bootstrap
+
 ## My contacts
 
 Email: rgitonga07@gmail.com
