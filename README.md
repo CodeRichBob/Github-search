@@ -30,6 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## My contacts
 
+Email: rgitonga07@gmail.com
+
 ### License
 
 - _License under [MIT License](LICENSE)_
