@@ -37,4 +37,4 @@ You can also reach out to me via twitter, @RGitongaRobert
 ### License
 
 - _License under [MIT License](LICENSE)_
-- Copyright (c) 2022 **Robert Gitonga**
+- Copyright &copy; 2022 **Robert Gitonga**
