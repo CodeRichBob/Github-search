@@ -29,9 +29,10 @@ This site was made entirely using:
 - TypeScript
 - Bootstrap
 
-## My contacts
+## Support and contact details
 
-Email: rgitonga07@gmail.com
+Would you like us to have a chat? Reach out to me through rgitonga07@gmail.com.
+You can also reach out to me via twitter, @RGitongaRobert
 
 ### License
 
