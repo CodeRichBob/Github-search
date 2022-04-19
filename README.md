@@ -6,6 +6,10 @@
 
 A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.
 
+## Link to live site
+
+https://coderichbob.github.io/Github-search/search
+
 ## Setup/Installation Requirements
 
 - A laptop/ PC with a working internet connection.
